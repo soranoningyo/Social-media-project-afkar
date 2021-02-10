@@ -1,21 +1,30 @@
 <template>
-  <div id="app">
-    <h1>Django VueJs Template</h1>
-    <div id="nav">
-     <router-link :to="{ name: 'home' }">Vue</router-link> |
-     <router-link :to="{ name: 'messages' }">Django Rest</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <router-view />
 </template>
 
+<script>
+  export default {
+    data() {
+      return {
+        
+      }
+    },
+    components : {
+    }
+  }
+</script>
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url("http://www.fontstatic.com/f=flat-jooza");
+body .v-application {
+  font-family: 'flat-jooza' , cursive !important
+}
+body {
+  min-width: 390px !important;
+}
+main.v-content {
+  padding-bottom: 56px !important
+}
+body .v-application .title , .headline , .display-1 {
+  font-family: 'flat-jooza' , cursive !important
 }
 </style>
