@@ -1,0 +1,2 @@
+Afkar is a large scale social media project that has a very outstanding idea revolving around creating publication-like (Tarh) and essays and discussions rooms, the premise of the idea is to create a local social media for Arabs that is featured with their culture, sadly the project is currently in alpha state as its is missing some important features but I would say its currently 80% finished
+Afkar is my first idea after i completed the full stack path, currently I am full backend dev but I for sure gonna complete this project to the end!
